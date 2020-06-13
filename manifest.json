@@ -1,0 +1,22 @@
+{
+    "name": "Tiny Twitter",
+    "version": "1.0",
+    "description": "Minimizes Twitter and helps you focus on what you care about.",
+    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "options_page": "options.html",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+	//"options_page": "options.html",
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "128": "images/128.png"
+        }
+    },
+    "icons": {
+        "128": "images/128.png"
+    },
+    "manifest_version": 2
+}
